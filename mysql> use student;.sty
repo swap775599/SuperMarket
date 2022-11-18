@@ -1,0 +1,28 @@
+mysql> use student;
+Reading table information for completion of table and column names
+You can turn off this feature to get a quicker startup with -A
+
+Database changed
+mysql> use student;
+Database changed
+mysql> select * from category;
++----+------------+-----+
+| di | name       | cid |
++----+------------+-----+
+|  1 | stationary |   0 |
+|  2 | food       |   0 |
++----+------------+-----+
+2 rows in set (0.03 sec)
+
+mysql> select * from product;
++------+---------+-------+------+------+
+| pid  | name    | price | di   | cid  |
++------+---------+-------+------+------+
+|    1 | pen     |    10 |    1 | NULL |
+|    2 | pensil  |     5 |    1 | NULL |
+|    3 | biscuit |    20 |    2 | NULL |
+|    4 | noodles |    20 |    2 | NULL |
++------+---------+-------+------+------+
+4 rows in set (0.03 sec)
+
+mysql> 
